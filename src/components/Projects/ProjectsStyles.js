@@ -103,3 +103,16 @@ export const Tag = styled.li`
   color: #d8bfbf;
   font-size: 1.5rem;
 `;
+
+export const ProjectTitle = styled.h2`
+width: 90%;
+max-width: 1280px;
+margin: 1em auto;
+font-weight: 800;
+letter-spacing: 2px;
+font-size: 24px;
+line-height: 72px;
+@media(min-width: 768px){
+  font-size: 46px;
+}
+`

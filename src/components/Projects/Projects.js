@@ -12,6 +12,7 @@ import {
   TitleContent,
   UtilityList,
   Img,
+  ProjectTitle
 } from "./ProjectsStyles";
 import {
   Section,
@@ -23,7 +24,7 @@ import { projects } from "../../constants/constants";
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <ProjectTitle>Projects</ProjectTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
