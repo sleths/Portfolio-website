@@ -47,6 +47,9 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
       Frontend developer with a background in fundamental sciences, utilizing an interdisciplinary approach to creating mobil first, responsive user experience.
+      <br />
+      <br />
+      Blockchain technology & Web3 enthusiast.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
