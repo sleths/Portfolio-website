@@ -15,6 +15,7 @@ const Hero = (props) => (
       <SectionText>Providing responsive websites utilizing the latest technology for your business.</SectionText>
       <Button>Learn More</Button>
     </LeftSection>
+ 
   </Section>
 );
 
