@@ -3,12 +3,12 @@ import styled from 'styled-components'
 
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
-  background: #0F1624;
+  background: #101010;
   padding: 0rem;
   list-style:none;
   display: flex;
   justify-content: space-between; 
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 
   margin-left: 32px;
   &:first-of-type{
@@ -19,9 +19,9 @@ export const CarouselContainer = styled.ul`
 
   //remove scrollbar
   scrollbar-width: none;  
-   &::-webkit-scrollbar {
-     display: none;
-   }
+&::-webkit-scrollbar {
+display: none;
+}
 
   @media ${props => props.theme.breakpoints.sm} {
     overflow-x: scroll;
@@ -40,7 +40,7 @@ export const CarouselMobileScrollNode = styled.div`
 `
 
 export const CarouselItem = styled.div`
-  background: #0F1624;
+  background: #101010;
   border-radius: 3px;
   max-width: 196px;
 
