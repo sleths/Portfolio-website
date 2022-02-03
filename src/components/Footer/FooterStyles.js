@@ -14,7 +14,7 @@ export const FooterWrapper = styled.section`
 `
 
 export const LinkItem = styled.a`
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 30px;
 	color: rgba(255, 255, 255, 0.75);
 	margin-bottom: 16px;
@@ -83,10 +83,9 @@ export const CompanyContainer = styled.div`
 export const Slogan = styled.p`
 	color: rgba(255, 255, 255, 0.5);
 	min-width: 280px;
-	letter-spacing: 0.02em;
-	font-size: 18px;
-	line-height: 30px;
-	padding: 1rem;
+	letter-spacing: 2px;
+	font-size: 14px;
+	padding: 1em 1em;
 
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;
@@ -103,6 +102,7 @@ export const Slogan = styled.p`
 export const SocialContainer = styled.div`
 	display: flex;
   align-items: center;
+	gap: 1em;
 
 	@media ${props => props.theme.breakpoints.md}{
 		justify-content: center;
@@ -116,8 +116,8 @@ export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: grid;
 	grid-template-columns: repeat(3, minmax(85px, 220px));
-	gap: 40px;
-  padding: 40px 0 28px;
+	gap: 2em;
+	padding: 2.5em 1em;
 
 	@media ${props => props.theme.breakpoints.lg} {
 		padding: 32px 0 16px;

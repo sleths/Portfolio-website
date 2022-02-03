@@ -49,7 +49,7 @@ const Timeline = () => {
       Hi! This is Sera. <br />
       I'm a frontend developer with a background in fundamental sciences, utilizing an interdisciplinary approach to creating mobil first, responsive user experience.
       <br />
-      I'm also a blockchain technology & Web3 enthusiast, and an amateur cyclist.      
+      I'm also a blockchain technology & Web3 enthusiast and an amateur cyclist.      
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
