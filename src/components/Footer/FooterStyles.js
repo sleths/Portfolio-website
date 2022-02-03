@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 export const FooterWrapper = styled.section`
-	width: 90%;
+	width: 100%;
+	max-width: 1280px;
   padding: 2rem 48px 40px;
   margin: 1rem auto;
   box-sizing: content-box;
@@ -23,7 +24,8 @@ export const LinkItem = styled.a`
 	left: 0;
 
 	&:hover {
-		color: #fff;
+		color: #ffd23f;
+    cursor: pointer;
 		left: 6px;
 	}
 
@@ -34,8 +36,7 @@ export const LinkItem = styled.a`
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 8px;
-		line-height: 14px;
+		font-size: 12px;
 		margin-bottom: 8px;
 		display: flex;
 		align-items: center;
@@ -85,7 +86,7 @@ export const Slogan = styled.p`
 	min-width: 280px;
 	letter-spacing: 2px;
 	font-size: 14px;
-	padding: 1em 1em;
+
 
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;
@@ -113,11 +114,10 @@ export const SocialContainer = styled.div`
 
 
 export const LinkList = styled.ul`
+	display: flex;
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
-  display: grid;
-	grid-template-columns: repeat(3, minmax(85px, 220px));
 	gap: 2em;
-	padding: 2.5em 1em;
+	padding: 2.5em 0;
 
 	@media ${props => props.theme.breakpoints.lg} {
 		padding: 32px 0 16px;
@@ -130,7 +130,6 @@ export const LinkList = styled.ul`
 	}
 	@media ${props => props.theme.breakpoints.sm} {
 		width: 100%;
-		padding: 32px 4px 16px;
 		gap: 5px;
 	}
 `

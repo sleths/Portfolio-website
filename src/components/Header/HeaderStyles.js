@@ -2,27 +2,13 @@ import { IoIosArrowDropdown } from "react-icons/io";
 import styled from "styled-components";
 
 export const Container = styled.div`
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-column-gap: 2rem;
-  margin: 0 auto;
-  width: 90%;
-  max-width: 1280px;
-  padding-top: 2rem;
-@media(max-width: 1024px){
-  grid-template-columns: repeat(5, 1fr);
-}
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: grid;
-    grid-template-rows: repeat(2, 60px);
-    grid-column-gap: 0.5rem;
-    grid-row-gap: 0.5rem;
-  }
+  display: flex;
+  padding: 1.5em 0;
 `;
 
 export const Span = styled.span`
 margin: 0 1rem;
-font-size: 1.45rem;
+font-size: 1rem;
 font-weight: 600;
 line-height: 38px;
 letter-spacing: 2px;
@@ -55,12 +41,13 @@ export const Div3 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
+    display: none;
   }
 `;
 
 // Navigation Links
 export const NavLink = styled.a`
-  font-size: 1.45rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 38px;
   letter-spacing: 2px;

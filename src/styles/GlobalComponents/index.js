@@ -3,9 +3,9 @@ import styled from 'styled-components'
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
-  padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
-  width: 100%;
+  width: 90%;
+  max-width: 1280px;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
@@ -22,6 +22,13 @@ export const Section = styled.section`
     width: calc(100vw - 32px);
     flex-direction: column;
   }
+`
+export const HeroSection = styled.section`
+margin: 0 auto;
+width: 90%;
+max-width: 1280px;
+display: flex;
+flex-direction: column-reverse;
 `
 
 export const SectionTitle = styled.h2`
