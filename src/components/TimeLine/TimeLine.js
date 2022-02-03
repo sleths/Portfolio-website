@@ -46,10 +46,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Frontend developer with a background in fundamental sciences, utilizing an interdisciplinary approach to creating mobil first, responsive user experience.
+      Hi! This is Sera. <br />
+      I'm a frontend developer with a background in fundamental sciences, utilizing an interdisciplinary approach to creating mobil first, responsive user experience.
       <br />
-      <br />
-      Blockchain technology & Web3 enthusiast.
+      I'm also a blockchain technology & Web3 enthusiast, and an amateur cyclist.      
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -115,7 +115,6 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

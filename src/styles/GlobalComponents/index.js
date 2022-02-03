@@ -5,6 +5,7 @@ export const Section = styled.section`
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
+  width: 100%;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
@@ -55,8 +56,8 @@ export const SectionTitle = styled.h2`
 `
 
 export const SectionText = styled.p`
-  max-width: 600px;
-  font-size: 20px;
+  max-width: 1000px;
+  font-size: 16px;
   letter-spacing: 1.25px;
   line-height: 40px;
   font-weight: 300;

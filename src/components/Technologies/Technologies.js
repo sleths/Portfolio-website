@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies.
+      I have expertise in a range of technologies.
     </SectionText>
     <List>
       <ListItem>
@@ -19,8 +19,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            Experience with <br />
+            React JS, CSS, Sass 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,7 +32,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Node JS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -44,7 +44,7 @@ const Technologies = () =>  (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            Figma, Adobe XD
           </ListParagraph>
         </ListContainer>
       </ListItem>
